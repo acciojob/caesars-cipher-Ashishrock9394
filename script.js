@@ -41,7 +41,7 @@ function rot13(encodedStr) {
 			decodedArr+=encodedStr[i]
 		}else
 		{
-			decodedArr+=lookup[str[i]]
+			decodedArr+=lookup[encodedStr[i]]
 			
 		}
 	}
